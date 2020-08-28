@@ -25,7 +25,7 @@ flash = False
 # game.create_sound('bgm.mp3', True)
 
 #初始化階梯
-for i in range(6):
+for i in range(9):
     s = game.create_sprite("s1.png","s2.png","s3.png","s4.png","s5.png","s6.png")
     s.costume_id = random.randint(0,5)
     s.x = random.randrange(350,850)
